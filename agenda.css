@@ -47,7 +47,7 @@ nav{
     }
 
     .active{
-        color: #CA970c;
+        color: palevioletred;
         text-decoration: underline;
         
     }
@@ -59,7 +59,7 @@ nav{
        transform:skew(0.5) ;
     } */
 
-    button{
+    /* button{
          display: flex;
          justify-content: center;
          align-items: center;
@@ -70,7 +70,7 @@ nav{
          border: none;
          border-radius: 5px;
          box-shadow: 1px 1px 1px 1px ;
-    }
+    } */
 
     .deconect{
         color: white;
@@ -119,38 +119,31 @@ nav{
         
     }
     
+    .todoliste{
 
-    .agenda{
+     position: relative;
+     top: 100px;
 
-        width: 100%;
-        height: 100vh;
-        background:url(./image/article_02.jpeg) ;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
     }
 
-    .debut{
-        display: flex;
-        justify-content: center;
-        text-align: center;
+    .conteneur{
         position: absolute;
-        top: 400px;
-    
-    }
-     .debut{
-        width: 600px;
-     }
-
-    .orga p{
-     font-size: 40px;
-     margin-bottom: 20px;
+        top: 200%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: auto;
     }
 
-    .orga button {
-     
-       background: white;
-       margin-left: 200px;
-       cursor: pointer;
+
+    input{
+        width: 250px;
+        height: 26px;
+        border: 1px solid palevioletred;
+        border-radius: 5px;
+      
+    }
+
+    button{
+        height: 26px;
+        border: none;
     }

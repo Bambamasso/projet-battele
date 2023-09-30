@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Quicksand:wght@400;500&display=swap');
+
+body {
+   margin: 0 auto;
+   background: palevioletred;
+  
+}
+
+.p{padding-top:50px ;
+    text-align: center;
+    font-size: 30px;
+    color: palevioletred;
+    font-family:'Inter', sans-serif;
+    text-decoration: underline;
+}
+
+.connexion
+
+{background: #fff;
+  margin: 0 auto;
+  width: 400px;
+  height: 650px;
+  margin-top: 80px;
+  border-radius: 20px;
+}
+.élements{
+   margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+   width: 250px;
+   padding: 12px;
+   margin-bottom: 10px;
+   outline:none;
+   background:white;
+  /* box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.732), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+}
+label{
+    font-family:'Inter', sans-serif;
+    color:black; 
+}
+
+button{
+    width: 250px;
+    padding: 10px;
+    background: palevioletred;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px ;
+}
+
+button:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: bold;
+    font-family:'Inter', sans-serif;
+}
+
+.conexion img:hover{
+transition: 0.5s;
+    transform: scale(1.5);
+}
+
+a img{
+    transition: 0.5s;
+}
+a img:hover{
+   transform: scale(0.8);
+}
